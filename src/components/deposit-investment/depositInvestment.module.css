@@ -1,0 +1,34 @@
+.business{
+  text-align: center;
+  font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+}
+.regulations{
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.perks{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.finacial{
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 30px 0;
+  width: 100%;
+}
+@media screen and (max-width: 700px) {
+  .regulations{
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+}

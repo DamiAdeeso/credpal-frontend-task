@@ -1,0 +1,9 @@
+.btnWraper{
+  width: fit-content;
+  padding: 11px 24px;
+  background-color: #274FED;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  font-family: 'Poppins';
+}

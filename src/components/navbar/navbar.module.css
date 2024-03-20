@@ -1,0 +1,28 @@
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  justify-content: space-between;
+  background-color: #FBFBFF;
+  height: 80px;
+}
+.navlist{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+}
+.logo_menu{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+@media screen and (max-width: 700px) {
+  .navbar{
+    padding: 30px;
+  }
+  .navlist{
+    display: none;
+  }
+}
