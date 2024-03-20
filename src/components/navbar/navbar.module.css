@@ -18,11 +18,18 @@
   align-items: center;
   gap: 50px;
 }
+.hamburger{
+  display: none;
+}
 @media screen and (max-width: 700px) {
   .navbar{
     padding: 30px;
   }
   .navlist{
     display: none;
+  }
+  .hamburger{
+    display: block;
+    /* font-size: 40px; */
   }
 }
