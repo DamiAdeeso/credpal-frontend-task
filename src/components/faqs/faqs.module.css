@@ -1,0 +1,38 @@
+.faqs{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  padding: 20px;
+}
+.faqsText{
+  text-align: center;
+  width: 100%;
+}
+.faqs_question{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+  font-family: 'Poppins';
+}
+.faqs_question select{
+  border: none;
+  border-bottom: 1px solid black;
+  font-family: 'Poppins';
+  padding-bottom: 8px;
+}
+.learnMore{
+  width: 100%;
+  padding: 40px;
+  background-color: #F9FAFB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 700px) {
+  .faqs_question{
+    width: 100%;
+  }
+}
